@@ -51,4 +51,9 @@ const userSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
+
+userSchema.virtual("password").set(function (password) {
+  // this.hash_password =
+});
+
 module.exports = mongoose.model("user", userSchema);
