@@ -12,7 +12,7 @@ exports.signup = (req, res) => {
       firstName,
       lastName,
       email,
-      hash_password,
+      password,
       username: Math.random().toString(),
     });
 

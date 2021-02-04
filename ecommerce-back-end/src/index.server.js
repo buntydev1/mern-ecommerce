@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 //enviroment variable or u can say constant
 env.config();
 
-const userRoutes = require("./routes/user");
+const userRoutes = require("./routes/auth");
 
 //mongodb connection
 //mongodb+srv://root:<password>@cluster0.a4tt1.mongodb.net/<dbname>?retryWrites=true&w=majority
